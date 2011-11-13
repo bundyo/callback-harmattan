@@ -7,15 +7,11 @@ an application written with web technology: HTML, CSS and JavaScript.
 What works
 ================
 
-Only the Accelerometer, Geolocation, Notification* and Network modules
+Only the Accelerometer, Geolocation, Notification and Network modules
 are working, but we are looking forward to support the other modules as well.
 
-In addition to the regular Callback API there are the Hash and MemoryWatcher*
-modules. These allow for calculating HMAC-SHA1 hashes (which is too slow to
-perform in JavaScript on Nokia hardware) and monitoring the memory usage of the
-application, respectively.
-
-(*) These modules are supported on Symbian only.
+In addition to the regular Callback API there is a Hash module. It allows for calculating 
+HMAC-SHA1 hashes (which is too slow to perform in JavaScript on Nokia hardware).
 
 Known Issues
 ================
